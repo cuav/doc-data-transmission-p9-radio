@@ -37,7 +37,11 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 |  | &lt; 890 MHz &gt; 70 dBc |
 |  |  |
 | Remote Diagnostics | Battery Voltage, Temperature, RSSI,Packet Statistics |
-| Core Voltage |  5.0V + -0.25V |
+| Core Voltage | 5.0V + -0.25V |
+| Power Consumption | Sleep &lt; 1mA |
+|  | Idle 3.5mA |
+|  | Rx: 35mA to 80mA |
+|  | Tx : 800mA to 1200mA |
 
 
 
