@@ -25,15 +25,19 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 |  | -107 dBm @ 230.4 kbps |
 | Output Power | 100mW - 1W \(20-30dBm\) |
 | Serial Interface | 3.3V CMOS TTL |
-| Serial Baud Rate |  Up to 230.4 kbps asynchronous |
+| Serial Baud Rate | Up to 230.4 kbps asynchronous |
 | Link Rate | 115 - 276 kbps |
 |  |  |
 | Operating Modes | Mesh, Auto Routing, Store and Forward,Self Healing, Packet Routing Modes |
 |  |  |
+| Blocking | +/- 1 MHz &gt; 55 dBc |
+|  | +/- 2.5 MHz &gt; 60 dBc |
+|  | +/- 5 MHz &gt; 65 dBc |
+|  | &gt; 930 MHz &gt; 70 dBc |
+|  | &lt; 890 MHz &gt; 70 dBc |
 |  |  |
-|  |  |
-|  |  |
-|  |  |
+| Remote Diagnostics | Battery Voltage, Temperature, RSSI,Packet Statistics |
+| Core Voltage |  5.0V + -0.25V |
 
 
 
