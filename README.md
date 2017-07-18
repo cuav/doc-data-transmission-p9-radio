@@ -49,7 +49,9 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 |  |  |
 | Weight | 51.2MM\*38.2MM\*15.5MM |
 |  |  |
-|  |  |
+| Order Option s |  |
+| -AES | 128-bit AES Encryption \(requires permit for export outside of Canada and USA.\) |
+| -ENC | Enclosed Model |
 |  |  |
 
 
