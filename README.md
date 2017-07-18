@@ -42,6 +42,15 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 |  | Idle 3.5mA |
 |  | Rx: 35mA to 80mA |
 |  | Tx : 800mA to 1200mA |
+| Connectors: |  |
+| Anternna | SMA |
+| DATA | GH1.25-6P&USB |
+| Environmental | -55o C - +85o C |
+|  |  |
+| Weight | 51.2MM\*38.2MM\*15.5MM |
+|  |  |
+|  |  |
+|  |  |
 
 
 
