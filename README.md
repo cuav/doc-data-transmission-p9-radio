@@ -12,7 +12,20 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 
 ### 参数：
 
-|  |  |
+| Frequency  | 902-928 MHz |
 | :--- | :--- |
+| Spreading Method | Frequency Hopping |
+| Forward Error Detection | Hamming /BCH/Golay/Reed-Solomon |
+| Error Detection | Error Detection 32 bits of CRC, ARQ |
+| Encryption | Optional \(see –AES option\) |
+| Range | 40 miles \(60 km\) |
 |  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
 
