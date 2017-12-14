@@ -3,8 +3,7 @@ build-book:
   - gitbook install
   - gitbook build . $WEBSITE_PATH/$CI_PROJECT_NAME
   - cd $WEBSITE_PATH
-  - rm -rf $CI_PROJECT_NAME/.*
-  - rm -f $CI_PROJECT_NAME.tgz
+  - rm -f $CI_PROJECT_NAME.tgz $CI_PROJECT_NAME/.gitignore $CI_PROJECT_NAME/.gitlab-ci.yml
   - tar zcf $CI_PROJECT_NAME.tgz $CI_PROJECT_NAME
 
   stage: build
