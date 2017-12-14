@@ -3,6 +3,6 @@ build-book:
   - gitbook install
   - gitbook build . $WEBSITE_PATH/$CI_PROJECT_NAME
   - rm -f $WEBSITE_PATH/../$CI_PROJECT_NAME.tgz
-  - tar zcf $WEBSITE_PATH/../$CI_PROJECT_NAME.tgz $WEBSITE_PATH/$CI_PROJECT_NAME
+  - tar zcf $WEBSITE_PATH/$CI_PROJECT_NAME.tgz $WEBSITE_PATH/$CI_PROJECT_NAME
 
   stage: build
