@@ -1,0 +1,8 @@
+build-book:
+  script: 
+  - gitbook install
+  - gitbook build . $WEBSITE_PATH/$CI_PROJECT_NAME
+  - rm -f $WEBSITE_PATH/../$CI_PROJECT_NAME.tgz
+  - tar zxf $WEBSITE_PATH/../$CI_PROJECT_NAME.tgz
+
+  stage: build
