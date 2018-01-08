@@ -12,23 +12,23 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 
 ### 技术规格：
 
-| Frequency | 902-928 MHz |
+| 工作频率 | 902-928 MHz |
 | :--- | :--- |
-| Spreading Method | Frequency Hopping |
-| Forward Error Detection | Hamming /BCH/Golay/Reed-Solomon |
-| Error Detection | Error Detection 32 bits of CRC, ARQ |
-| Encryption | Optional \(see –AES option\) |
-| Range | 40 miles \(60 km\) |
+| 传输技术 | 跳频 |
+| 转发错误检测 | Hamming /BCH/Golay/Reed-Solomon |
+| 错误检测 | Error Detection 32 bits of CRC, ARQ |
+| 加密 | Optional \(see –AES option\) |
+| 范围 | 40英里 \(60 km\) |
 |  |  |
-| Sensitivity | -110 dBm @ 115.2 kbps |
+| 灵敏度 | -110 dBm @ 115.2 kbps |
 |  | -108 dBm @ 172.8 kbps |
 |  | -107 dBm @ 230.4 kbps |
-| Output Power | 100mW - 1W \(20-30dBm\) |
-| Serial Interface | 3.3V CMOS TTL |
-| Serial Baud Rate | Up to 230.4 kbps asynchronous |
-| Link Rate | 115 - 276 kbps |
+| 输出功率 | 100mW - 1W \(20-30dBm\) |
+| 串行接口 | 3.3V CMOS TTL |
+| 波特率 | 57600（可改） |
+| 空速 | 115 - 276 kbps |
 |  |  |
-| Operating Modes | Mesh, Auto Routing, Store and Forward,Self Healing, Packet Routing Modes |
+| 操作模式 | Mesh, Auto Routing, Store and Forward,Self Healing, Packet Routing Modes |
 |  |  |
 | Blocking | +/- 1 MHz &gt; 55 dBc |
 |  | +/- 2.5 MHz &gt; 60 dBc |
@@ -37,17 +37,17 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 |  | &lt; 890 MHz &gt; 70 dBc |
 |  |  |
 | Remote Diagnostics | Battery Voltage, Temperature, RSSI,Packet Statistics |
-| Core Voltage | 5.0V + -0.25V |
-| Power Consumption | Sleep &lt; 1mA |
+| 供电电压 | 5.0V + -0.25V |
+| 接口电流 | Sleep &lt; 1mA |
 |  | Idle 3.5mA |
 |  | Rx: 35mA to 80mA |
 |  | Tx : 800mA to 1200mA |
 | Connectors: |  |
-| Anternna | SMA |
-| DATA | GH1.25-6P&USB |
+| 天线接口 | SMA |
+| 接口 | GH1.25-6P&USB |
 | Environmental | -55o C - +85o C |
 |  |  |
-| Weight | 51.2MM\*38.2MM\*15.5MM |
+| 重量 | 51.2MM\*38.2MM\*15.5MM |
 |  |  |
 | Order Option s |  |
 | -AES | 128-bit AES Encryption \(requires permit for export outside of Canada and USA.\) |
@@ -57,6 +57,4 @@ P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，�
 ### 接口定义：
 
 ![](/assets/900接口定义.png)
-
-
 
