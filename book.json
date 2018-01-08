@@ -1,6 +1,6 @@
 {
   "title": "CUAV P9 Radio",
-  "description": "CUAV P9 Radio",
+  "description": "CUAV P9 数传",
   "language": "zh-hans",
   "plugins": [
     "-sharing",
