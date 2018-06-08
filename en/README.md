@@ -1,16 +1,16 @@
-# CUAV P9 Radio
+#CUAV P9 Radio
 
 ---
 
-### 概述：
+### Summary:
 
-P9 Radio 是由CUAV最新推出的超视距无人机数据链路通讯模块，它拥有高功率、高速率、高接收灵敏度等特性，非常适合应用于无人机通讯系统
+P9 Radio is a new line-of-sight drone data link communication module from CUAV. It features high power, high speed, and high receiver sensitivity, making it ideal for use in drone communications systems.
 
-### 特性：
+### Features:
 
 ![](/assets/P900.png)
 
-### 技术规格：
+### Technical Specifications:
 
 | 工作频率 | 902-928 MHz |
 | :--- | :--- |
