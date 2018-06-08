@@ -1,34 +1,29 @@
-# 硬件连接使用
+# Use hardware connection
 
 ---
 
-#### 出厂已配对： {#出厂已配对：}
+#### Factory paired: {#factory paired:}
 
-出厂默认为空速115K，接口速率为57600，点对点广播模式
+The factory default is airspeed 115K, interface rate is 57600, peer-to-peer broadcast mode
 
-如需修改配置，请看软件配置指南.
+To modify the configuration, see the Software Configuration Guide.
 
-#### 与飞控连接： {#与飞控连接：}
+#### Connection with Flight Control: {# Connection with Flight Control:}
 
-PixHack：插入到飞控的radio接口
+PixHack: Radio Interface Plugged into Flight Control
 
-Pixhawk：插入到飞控的telem1或者telem2 接口
+Pixhawk: plug into the flight controller's telem1 or telem2 interface
 
-#### 地面站使用： {#地面站使用：}
+#### Ground station use: {# ground station use:}
 
-理论上PIX的地面站都兼容，连接时请选择57600波特率，注意驱动是否安装正确，端口号是否选对
+In theory, the ground stations of the PIX are compatible. Please select 57600 baud rate when connecting. Note whether the driver is installed correctly and whether the port number is selected.
 
-## 供电要求：
+## Power Requirements:
 
-地面端需确保usb口供电电流大于1A，需要独立供电，飞机端如飞控输出小于1A，需要独立供电.
+The ground end must ensure that the usb port supply current is greater than 1A, and it needs independent power supply. If the aircraft end is less than 1A in flight control output, it needs independent power supply.
 
-### 应用到其他系统：
+### Apply to other systems:
 
-如果只是当无线数传模块使用，请按照接口定义与系统连接既可（RX-TX  TX-RX  GND-GND）
+If only the wireless data transmission module is used, please follow the interface definition and the system connection (RX-TX TX-RX GND-GND)
 
-默认标准接口速率为57600，可以根据需求更改需要的接口波特率
-
-### 
-
-
-
+The default standard interface rate is 57600. The required interface baud rate can be changed according to the requirements.
