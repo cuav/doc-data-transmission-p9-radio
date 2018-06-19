@@ -3,6 +3,8 @@
   "description": "CUAV P9 超视距数传",
   "language": "zh-hans",
   "plugins": [
+   "language-picker",
+    "richquotes",
     "-sharing",
     "-highlight",
     "-livereload",
