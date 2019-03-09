@@ -8,7 +8,7 @@ P9 Radio is a new line-of-sight drone data link communication module from CUAV. 
 
 ### Features:
 
-![](/assets/P900.png)
+![P900](../assets/p900.png)
 
 ### Technical Specifications:
 
@@ -56,5 +56,5 @@ P9 Radio is a new line-of-sight drone data link communication module from CUAV. 
 
 ### Interface definition ：
 
-![](/assets/900Interface definition .png)
+![P900radio](../assets/p900_radio.png)
 
